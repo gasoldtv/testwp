@@ -1,0 +1,15 @@
+{
+    "name": "acf/accord",
+    "title": "Accord",
+    "description": "A custom accord block.",
+    "category": "formatting",
+    "icon": "admin-comments",
+    "apiVersion": 2,
+    "keywords": ["accord", "quote"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "accord.php"
+    },
+    "align": "full",
+	"blockVersion": 2
+}

@@ -1,0 +1,120 @@
+/*
+Theme Name: Twenty Twenty-Three Child
+Theme URI: https://wordpress.org/themes/twentytwentythree
+Template: twentytwentythree
+Author: the WordPress team
+Author URI: https://wordpress.org
+Description: Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.
+Tags: one-column,custom-colors,custom-menu,custom-logo,editor-style,featured-images,full-site-editing,block-patterns,rtl-language-support,sticky-post,threaded-comments,translation-ready,wide-blocks,block-styles,accessibility-ready,blog,portfolio,news
+Version: 1.1.1686449459
+Updated: 2023-06-11 05:10:59
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+@font-face {
+	font-family: 'Ruberoid';
+	src: url('/testwp/wp-content/themes/twentytwentythree-child-2/fonts/Ruberoid-Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'GT Eesti Pro Text';
+	src: url('/testwp/wp-content/themes/twentytwentythree-child-2/fonts/gteestiprotext_medium.otf') format('truetype');
+}
+
+@font-face {
+	font-family: 'GT Eesti Pro Display';
+	src: url('/testwp/wp-content/themes/twentytwentythree-child-2/fonts/gteestiprodisplay_light.otf') format('truetype');
+}
+
+.twp-main-title {
+	font-family: 'Ruberoid', sans-serif;
+	font-weight: 400;
+	font-size: 54px;
+	line-height: 54px;
+	color: #fff;
+}
+
+h1 {
+	font-family: 'Ruberoid';
+	font-weight: 400;
+	font-size: 54px;
+	line-height: 54px;
+	color: #fff;
+}
+
+h2 {
+	font-family: 'Ruberoid';
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 40px;
+	margin-block-start: unset !important;
+	margin-block-end: unset !important;
+	margin: 0;
+	margin-bottom: 24px !important;
+	color: #000;
+}
+
+.twp-persons {
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.twp-person__item {
+	max-width: 239px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.twp-person-thumbnail {
+	margin-bottom: 24px;
+}
+
+.twp-person-position {
+	display: block;
+	text-align: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 6px;
+}
+
+.twp-person-link {
+	display: block;
+	text-align: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	color: #EF823F;
+}
+
+h3.twp-person-title {
+	margin: 0;
+	margin-bottom: 12px;
+	font-family: 'Ruberoid';
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 32px;
+}
+
+.twp-person__item p {
+	margin: 0 !important;
+}
+
+body.post-template-default p {
+	margin-block-start: unset !important;
+	margin-block-end: unset !important;
+	margin: 0;
+	margin-bottom: 60px !important;
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 26px;
+}
